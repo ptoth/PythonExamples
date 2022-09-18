@@ -1,2 +1,2 @@
 # PythonCodes
-Basic codes for python learning
+Tutorial codes for Python
