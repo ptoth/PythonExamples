@@ -1,25 +1,25 @@
 # List items are ordered, changeable, and allow duplicate values.
 myFirstList = ["apple", "banana", "cherry"];
-print("Current list items: "+myFirstList);
-print("Length of the list is: "+len(myFirstList));
+print("Current list items: "+str(myFirstList));
+print("Length of the list is: "+str(len(myFirstList)));
 
 # List items are indexed, the first item has index [0], the second item has index [1] etc.
 print("The third item in the list is :" + myFirstList[2]);
 
 # adding a new item to the end of list: chair
 myFirstList.append("chair")
-print("Current list items: "+myFirstList)
-print("Length of the list is: "+len(myFirstList));
+print("Current list items: "+str(myFirstList))
+print("Length of the list is: "+str(len(myFirstList)));
 
 # adding another banana to the list
 myFirstList.append("banana")
-print("Current list items: "+myFirstList)
-print("Length of the list is: "+len(myFirstList));
+print("Current list items: "+str(myFirstList))
+print("Length of the list is: "+str(len(myFirstList)));
 
 #list can contain mixed types of data as well:
 #For example: string, numeric, boolean
 mySecondList = ["BMW", 42, True]
-print("Mixed list's contents: "+mySecondList)
+print("Mixed list's contents: "+str(mySecondList))
 
 # Check if "apple" is present in the list:
 thislist = ["apple", "banana", "cherry"]
