@@ -1,6 +1,3 @@
-print("Simple code for showing slicing of a string")
-print("===== START =====")
-
 myText = "This text is a sample"
 
 print("Our sample text is: "+myText)
@@ -18,9 +15,7 @@ print(myText[0:len(myText)-7])
 print(myText[0:len(myText)-8])
 print(myText[0:len(myText)-9])
 print(myText[0:len(myText)-10])
-
 print("\n")
-
 
 # now we are slicing from the other direction:
 print("Slice characters from the start:")
@@ -35,5 +30,3 @@ print(myText[7:len(myText)])
 print(myText[8:len(myText)])
 print(myText[9:len(myText)])
 print(myText[10:len(myText)])
-
-print("===== STOP =====")
