@@ -3,7 +3,7 @@ guestList = []
 
 menuIndex = -1
 while (menuIndex != 9):
-    print("==============================")
+    print("========================================")
     print("Please choose from the menu:")
     print("1. add guest to the end of the list")
     print("2. remove guest")
