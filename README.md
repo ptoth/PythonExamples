@@ -1,2 +1,2 @@
-# PythonCodes
-Tutorial codes for Python
+# PythonExamples
+Sample codes for Python
