@@ -1,20 +1,20 @@
 # List items are ordered, changeable, and allow duplicate values.
-myFirstList = ["apple", "banana", "cherry"];
-print("Current list items: "+str(myFirstList));
-print("Length of the list is: "+str(len(myFirstList)));
+myFirstList = ["apple", "banana", "cherry"]
+print("Current list items: "+str(myFirstList))
+print("Length of the list is: "+str(len(myFirstList)))
 
 # List items are indexed, the first item has index [0], the second item has index [1] etc.
-print("The third item in the list is :" + myFirstList[2]);
+print("The third item in the list is :" + myFirstList[2])
 
 # adding a new item to the end of list: chair
 myFirstList.append("chair")
 print("Current list items: "+str(myFirstList))
-print("Length of the list is: "+str(len(myFirstList)));
+print("Length of the list is: "+str(len(myFirstList)))
 
 # adding another banana to the list
 myFirstList.append("banana")
 print("Current list items: "+str(myFirstList))
-print("Length of the list is: "+str(len(myFirstList)));
+print("Length of the list is: "+str(len(myFirstList)))
 
 #list can contain mixed types of data as well:
 #For example: string, numeric, boolean
@@ -42,7 +42,8 @@ thislist[1:2] = ["blackcurrant", "watermelon"]
 print(thislist)
 
 """
-Note: The length of the list will change when the number of items inserted does not match the number of items replaced.
+Note: The length of the list will change when the number of 
+items inserted does not match the number of items replaced.
 If you insert less items than you replace, 
 the new items will be inserted where you specified, 
 and the remaining items will move accordingly:
@@ -106,5 +107,3 @@ del thislist
 thislist = ["apple", "banana", "cherry"]
 thislist.clear()
 print(thislist)
-
-# https://www.w3schools.com/python/python_lists_loop.asp

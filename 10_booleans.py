@@ -36,18 +36,18 @@ bool({})
 
 # Print the answer of a function:
 def myFunction() :
-  return True
+    return True
 
 print(myFunction())
 
 # Print "YES!" if the function returns True, otherwise print "NO!":
 def yesOrNoFunction() :
-  return True
+    return True
 
 if yesOrNoFunction():
-  print("YES!")
+    print("YES!")
 else:
-  print("NO!")
+    print("NO!")
 
 # Check if an object is an integer or not:
 x = 200

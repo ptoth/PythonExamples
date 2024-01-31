@@ -1,7 +1,7 @@
-# str 
+# str
 x = "Hello World"
 
-# int 
+# int
 x = 20
 
 # float

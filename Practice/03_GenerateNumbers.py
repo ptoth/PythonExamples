@@ -10,10 +10,10 @@ for y in myRandomNumberList:
 
 print ("=====")
 for y in myRandomNumberList:
-    if (y > 0):
+    if y > 0:
         print(y)
 
 print ("=====")
 for z in myRandomNumberList:
-    if (z % 2 == 0):
+    if z % 2 == 0:
         print(z)

@@ -13,5 +13,5 @@ if not(
 ):
     print("Non-existent triangle!")
 else:
-    kerulet = triangleSideA + triangleSideB + triangleSideC
-    print("Perimeter: ",kerulet)
+    perimeter = triangleSideA + triangleSideB + triangleSideC
+    print("Perimeter: ",perimeter)

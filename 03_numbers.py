@@ -1,3 +1,5 @@
+import random
+
 # Variables of numeric types are created when you assign a value to them:
 x = 1    # int
 y = 2.8  # float
@@ -22,6 +24,5 @@ print(type(c))
 
 # generate random name from 1 to 9
 # module import required
-import random
-print(random.randrange(1, 10))
 
+print(random.randrange(1, 10))

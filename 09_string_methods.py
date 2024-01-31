@@ -4,7 +4,7 @@ myTestString = "abc ABC 123 something NOTHING EvErYtHiNg"
 
 myTestString.capitalize() # Converts the first character to upper case
 myTestString.casefold() # Converts string into lower case
-myTestString.center() # Returns a centered string
+myTestString.center('#') # Returns a centered string, centered with #
 myTestString.count() # Returns the number of times a specified value occurs in a string
 myTestString.encode() # Returns an encoded version of the string
 myTestString.endswith() # Returns true if the string ends with the specified value
@@ -31,8 +31,8 @@ myTestString.lstrip() # Returns a left trim version of the string
 myTestString.maketrans() # Returns a translation table to be used in translations
 myTestString.partition() # Returns a tuple where the string is parted into three parts
 myTestString.replace() # Returns a string where a specified value is replaced with a specified value
-myTestString.rfind() # Searches the string for a specified value and returns the last position of where it was found
-myTestString.rindex() # Searches the string for a specified value and returns the last position of where it was found
+myTestString.rfind('a') # Searches the string for 'a' value, returns the last position
+myTestString.rindex() # Searches the string for 'a' value and returns the last position
 myTestString.rjust() # Returns a right justified version of the string
 myTestString.rpartition() # Returns a tuple where the string is parted into three parts
 myTestString.rsplit() # Splits the string at the specified separator, and returns a list
